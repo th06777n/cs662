@@ -1,0 +1,3 @@
+Full virtualization: This refers to a complete simulation or translation of the host hardware to some sort of virtual CPU, virtual memory or virtual disks for use by the VM using its own unmodified OS.
+Partial virtualization: This refers to the fact that some selected resource are virtualized and some are not. Therefore, some guest programs must be modified to run in such an environment.
+Para-virtualization: In this case, the hardware environment of the VM is not virtualized. The guest applications are executed in an isolated domains or sometimes caller software containers. The guest OS is no longer used. Instead, a VMM is installed at the user space to guide the execution of user programs.
